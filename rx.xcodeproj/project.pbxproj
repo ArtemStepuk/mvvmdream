@@ -52,10 +52,7 @@
 		ACB8D3BE1EF7E89D006E7CE8 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB8D3BD1EF7E89D006E7CE8 /* View.xib */; };
 		ACB8D3C81EF7EAB6006E7CE8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB8D3C41EF7EAB6006E7CE8 /* RxCocoa.framework */; };
 		ACB8D3C91EF7EAB6006E7CE8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB8D3C51EF7EAB6006E7CE8 /* RxSwift.framework */; };
-		ACB8D3CA1EF7EAB6006E7CE8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB8D3C61EF7EAB6006E7CE8 /* SnapKit.framework */; };
 		ACB8D3CB1EF7EAB6006E7CE8 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB8D3C71EF7EAB6006E7CE8 /* Swinject.framework */; };
-		ACB8D3CD1EF7EB45006E7CE8 /* Day.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB8D3CC1EF7EB45006E7CE8 /* Day.xcassets */; };
-		ACB8D3CF1EF7EB53006E7CE8 /* Night.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB8D3CE1EF7EB53006E7CE8 /* Night.xcassets */; };
 		ACB8D3D31EF7EBFB006E7CE8 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D3D21EF7EBFB006E7CE8 /* UIViewController.swift */; };
 		ACDD91151EFAB8E100DFE435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD91141EFAB8E100DFE435 /* AppDelegate.swift */; };
 		ACDD91171EFAB8E100DFE435 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD91161EFAB8E100DFE435 /* View.swift */; };
@@ -184,8 +181,6 @@
 		ACB8D3C51EF7EAB6006E7CE8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		ACB8D3C61EF7EAB6006E7CE8 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		ACB8D3C71EF7EAB6006E7CE8 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
-		ACB8D3CC1EF7EB45006E7CE8 /* Day.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Day.xcassets; sourceTree = "<group>"; };
-		ACB8D3CE1EF7EB53006E7CE8 /* Night.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Night.xcassets; sourceTree = "<group>"; };
 		ACB8D3D21EF7EBFB006E7CE8 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		ACDD91121EFAB8E100DFE435 /* macosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDD91141EFAB8E100DFE435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -242,7 +237,6 @@
 				AC9DB10D1EFBB6910028E536 /* CommonIOS.framework in Frameworks */,
 				ACB8D3C81EF7EAB6006E7CE8 /* RxCocoa.framework in Frameworks */,
 				ACB8D3C91EF7EAB6006E7CE8 /* RxSwift.framework in Frameworks */,
-				ACB8D3CA1EF7EAB6006E7CE8 /* SnapKit.framework in Frameworks */,
 				ACB8D3CB1EF7EAB6006E7CE8 /* Swinject.framework in Frameworks */,
 				8C71209653E6FA0FF4AD8EDC /* Pods_iosApp.framework in Frameworks */,
 			);
@@ -577,8 +571,6 @@
 			children = (
 				ACB8D3911EF7DDB2006E7CE8 /* LaunchScreen.storyboard */,
 				AC9DB1101EFBB80D0028E536 /* Defaults.xcassets */,
-				ACB8D3CC1EF7EB45006E7CE8 /* Day.xcassets */,
-				ACB8D3CE1EF7EB53006E7CE8 /* Night.xcassets */,
 				ACB8D3941EF7DDB2006E7CE8 /* Info.plist */,
 			);
 			path = Resources;
@@ -965,9 +957,7 @@
 			files = (
 				ACB8D3BE1EF7E89D006E7CE8 /* View.xib in Resources */,
 				ACB8D3931EF7DDB2006E7CE8 /* LaunchScreen.storyboard in Resources */,
-				ACB8D3CF1EF7EB53006E7CE8 /* Night.xcassets in Resources */,
 				AC5756CA1EFA607300BA0447 /* Collection.xib in Resources */,
-				ACB8D3CD1EF7EB45006E7CE8 /* Day.xcassets in Resources */,
 				AC9DB1111EFBB80D0028E536 /* Defaults.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
