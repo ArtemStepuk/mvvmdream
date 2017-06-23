@@ -4,7 +4,12 @@ Just yet another one MVVM example with cross platform implementation, unit tests
 
 ## Installation
 
-Currently project is using Carthage and Pods as dependency managers (pods decommissioning is in plan). Everything is in the repository. So in theory nothing has to be done, just checkout/build/run.
+Currently project is using Carthage and Pods as dependency managers (pods decommissioning is in plan).
+
+- git clone git@github.com:ArtemStepuk/mvvmdream.git
+- cd mvvmdream
+- carthage update --platform iOS,macOS 
+- open rx.xcworkspace   
 
 Dependencies are:
 
