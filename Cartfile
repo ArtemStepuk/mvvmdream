@@ -1,0 +1,3 @@
+github "ReactiveX/RxSwift"
+github "SnapKit/SnapKit"
+github "Swinject/Swinject"
