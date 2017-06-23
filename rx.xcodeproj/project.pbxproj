@@ -1059,7 +1059,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which synx >/dev/null; then\n#synx --no-sort-by-name ${PROJECT_FILE_PATH}\necho \"warning: sync is disabled. no worries and continue working\"\nelse\necho \"warning: synx not installed, download from https://github.com/venmo/synx\"\nfi\n";
+			shellScript = "if which synx >/dev/null; then\n#synx --no-sort-by-name ${PROJECT_FILE_PATH}\necho \"sync is disabled. no worries and continue working\"\nelse\necho \"warning: synx not installed, download from https://github.com/venmo/synx\"\nfi\n";
 		};
 		AC21E82E1EFB0E4A00E0F939 /* Swift lint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1087,7 +1087,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "source ~/.rvm/scripts/rvm\ntype rvm | head -n 1\n\nrvm use 2.4.0\n\njazzy \\\n--clean \\\n--author Artem Stepuk \\\n--xcodebuild-arguments -scheme,Common \\\n--module CommonIOS \\\n--output Documentation/\\";
+			shellScript = "source ~/.rvm/scripts/rvm\ntype rvm | head -n 1\n\nrvm use 2.4.0\n\njazzy \\\n--clean \\\n--author Artem Stepuk \\\n--xcodebuild-arguments -scheme,CommonIOS \\\n--module CommonIOS \\\n--output Documentation/\\";
 		};
 		ACB8D3D41EF7EE5C006E7CE8 /* [Carthage] Copy dynamic frameworks (3 items) */ = {
 			isa = PBXShellScriptBuildPhase;

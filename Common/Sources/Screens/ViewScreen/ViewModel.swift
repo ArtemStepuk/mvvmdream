@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-//MARK : Inerface -
+// MARK: Inerface -
 
 public enum ViewState {
     case unknown
@@ -29,7 +29,7 @@ public protocol ViewModelProtocol {
     var state: Observable<ViewState> { get }
 }
 
-//MARK : - Presentation Validation
+// MARK: - Presentation Validation
 
 public typealias ModelValidator = (String) -> Bool
 
@@ -37,7 +37,7 @@ internal let defaultValidator = { (str: String) -> Bool in
     return str.characters.count > 3
 }
 
-//MARK : - ViewModel
+// MARK: - ViewModel
 
 public class ViewModel: ViewModelProtocol {
 

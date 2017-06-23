@@ -61,13 +61,36 @@
 <p>Just yet another one MVVM example with cross platform implementation, unit tests and ui tests.</p>
 <h2 id='installation' class='heading'>Installation</h2>
 
-<p>Currently project is using Carthage and Pods and dependency managers (pods decommissioning is in plan). Everything is in the repository. So in theory nothing has to be done, just checkout/build/run.</p>
+<p>Currently project is using Carthage and Pods as dependency managers (pods decommissioning is in plan).</p>
+
+<ul>
+<li>git clone <a href="mailto:git@github.com">git@github.com</a>:ArtemStepuk/mvvmdream.git</li>
+<li>cd mvvmdream</li>
+<li>carthage update &ndash;platform iOS,macOS</li>
+<li>open rx.xcworkspace<br></li>
+</ul>
 
 <p>Dependencies are:</p>
 
-<p>RxSwift/RxCocoa
-Swinject
-FBSnapshotTestCase (for iosAppTests target)</p>
+<ul>
+<li>RxSwift/RxCocoa</li>
+<li>Swinject</li>
+<li>FBSnapshotTestCase (for iosAppTests target)</li>
+</ul>
+
+<p>Project targets:</p>
+
+<ul>
+<li>iosApp - iOS application</li>
+<li>macosApp - macOS application</li>
+<li>CommonIOS - framework for iOS (same code base as in CommonMac)</li>
+<li>CommonMac - framework for macOS (same code base as in CommonIOS)</li>
+<li>CommonIOSTests - unit test for common business logic.</li>
+<li>iosAppTests - ui tests (snapshots) for iOS app.</li>
+<li>Utils - jazzy/swiftlint/synx scripts run.</li>
+</ul>
+
+<p>other stuff can be ignored for now.</p>
 
           </section>
         </section>
