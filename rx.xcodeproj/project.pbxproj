@@ -1098,7 +1098,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 			);
 			name = "[Carthage] Copy dynamic frameworks (3 items)";
 			outputPaths = (
