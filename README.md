@@ -8,7 +8,7 @@ Currently project is using Carthage and Pods as dependency managers (pods decomm
 
 Dependencies are:
 
-RxSwift/RxCocoa
-Swinject
-FBSnapshotTestCase (for iosAppTests target)
+ - RxSwift/RxCocoa
+ - Swinject
+ - FBSnapshotTestCase (for iosAppTests target)
 
